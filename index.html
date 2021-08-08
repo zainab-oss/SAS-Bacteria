@@ -4,17 +4,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
     <title>SAS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@300;700&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -24,14 +27,27 @@
     <center>
 
         <center>
-            <ul class="menu">
-                <li class="links"><a href="#home">Home</a></li>
-                <li class="links"><a href="#Bact">Bacteria</a></li>
-                <li class="links"><a href="#deis">Diseases</a></li>
-                <li class="links"><a href="#new">News</a></li>
-                <li class="links"><a href="#fun">Activities</a></li>
-                <li class="links"><a href="#us">About Us</a></li>
-            </ul>
+            <nav class="navbar-inverse" style="position: absolute; top: 0; z-index: 99999">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">SAS</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="links"><a href="#home">Home</a></li>
+                        <li class="links"><a href="#Bact">Bacteria</a></li>
+                        <li class="links"><a href="#deis">Diseases</a></li>
+                        <li class="links"><a href="#new">News</a></li>
+                        <li class="links"><a href="#fun">Activities</a></li>
+                        <li class="links"><a href="#us">About Us</a></li>
+                    </ul>
+                </div>
+            </nav>
         </center>
         <div class="container">
             <br>
@@ -39,7 +55,7 @@
             <br>
             <section id="home">
                 <div id="strt">
-                    <br><br>
+                    <br><br><br>
                     <p class="hp"><mark>Bacteria</mark></p>
                     <p class="hp"><mark>Infectious bacteria and the diseases caused by them.</mark></p>
                 </div>
@@ -51,7 +67,7 @@
                 <div class="lintop"></div>
                 <p>Bacteria are small single-celled organisms. Bacteria are found almost everywhere on Earth and are vital to the planet's ecosystems. Some species can live under extreme conditions of temperature and pressure. The human body is full of bacteria, and in fact is estimated to contain more bacterial cells than human cells.</p>
                 <br>
-                <p>The size of Bacteria is 1 μm to 10 μm. They are unicellular, independent/Parasitic organisims. Sometimes many bacteria together form colonies. Bacterial cell is prokaryotic with cell wall, but distinct nucleus or cell organells are absent. They reproduce by simple binary fission. In favourable conditions, bacteria grow vigorously and can double their number in 20 minutes.</p>
+                <p>The size of Bacteria is 1 μm to 10 μm. They are unicellular, independent/Parasitic organisms. Sometimes many bacteria together form colonies. Bacterial cell is prokaryotic with cell wall, but distinct nucleus or cell organelles are absent. They reproduce by simple binary fission. In favorable conditions, bacteria grow vigorously and can double their number in 20 minutes.</p>
                 <br>
                 <p class="hp" style="font-weight: bolder;">Some Bacterias</p>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -128,94 +144,170 @@
                 <br>
                 <div class="fuline"></div>
             </section>
-        </div>
-        <section id="deis">
-            <p class="hp">Dieseases</p>
-            <div class="lintop"></div>
-            <audio controls>
-                <source src="LALA.mp3" type="audio/ogg">
-                <source src="LALA.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-            <p style="font-family: sans-serif" ;>We are going to be disscusing on 3 types of infectious bacteria and the diseases caused by them. The 3 diseases are Typhoid, Cholera and . So let's get started scrolling.</p>
-            <p class="hp">Helicobactor Pylori</p>
-            <div class="lintop"></div>
-            <span>
-                <img src="heli%20(2).jpeg">
-            </span>
-            <span>
-                <img src="heli%20(3).jpeg">
-            </span>
 
-            <div>
-                <p class="para">Helicobacter pylori(H. pylori) is a type of bacteria. These germs can enter your body and live in your digestive tract. After many years, they can cause sores, called ulcers, in the lining of your stomach or the upper part of your small intestine. For some people, an infection can lead to stomach cancer.
-                    Other names: Campylobacter pylori. Causes: Helicobacter pylori spread by fecal oral route
-
-                    Symptoms: Hematemesis, Melena, abdominal pain, nausea
-
-                    Frequency: >50% (2015)</p>
+            <section id="deis">
+                <p class="hp">Dieseases</p>
+                <div class="lintop"></div>
+                <div>
+                    <audio controls>
+                        <source src="LALA.mp3" type="audio/ogg">
+                        <source src="LALA.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <p style="font-family: sans-serif" ;>We are going to be disscusing on 3 types of infectious bacteria and the diseases caused by them. The 3 diseases are Typhoid, Cholera and Tuberculosis. So let's get started scrolling.</p>
+                <p class="hp">Typhoid</p>
+                <div class="lintop"></div>
                 <span>
-                    <img class="all" src="heli%20(1).jpeg">
+                    <img src="typhoi2.jpg">
+                </span>
+                <span>
+                    <img src="typhoid3.jpg">
                 </span>
 
-                <p class="para">H. pylori are shaped in a twisting helix, much like a corkscrew. This shape helps H. pylori to take hold and colonize the stomach.
-                    pylori eradication rate (1). As the antimicrobial activity of metronidazole is marginally affected by low pH, this drug may be highly effective against H. pylori. The European Helicobacter Study Group has advised to employ a metronidazole-based triple therapy as choice in treating H.</p>
-            </div>
-            <br>
+                <div>
+                    <p class="para">Typhoid fever is also called enteric fever. It is a prospectively, multi systemic illness that has been a public health problem, especially in the developing world.
+                        Typhoid fever is caused by a type of bacteria called Salmonella typhi. This isn't the same bacteria that cause salmonella food poisoning, but the two are related.</p>
+                    <span>
+                        <img class="all" src="typh1.jpg">
+                    </span>
+
+                    <p class="para">Typhoid fever is a serious bacterial infection that easily spreads through contaminated water and food. Along with high fever, it can cause abdominal pains headache, and loss of appetite. With treatment, most people make a full recovery. But untreated typhoid can lead to life-threatening complications.
+                        Natural And Home Treatments For Typhoid Fever In uncomplicated cases of typhoid fever (salmonella infections), the patient is usually given a sponge bath at room temperature using the infusion or the decoration of any of these fever-reducing herbs: Fever plant (Optimum gratissimum); lemon grass Cymbopogon citrates</p>
+                </div>
+                <br>
+                <div class="fuline"></div>
+                <br>
+                <p class="hp">Cholera</p>
+                <div class="lintop"></div>
+                <div>
+                    <audio controls>
+                        <source src="WhatsApp%20Audio%202021-07-29%20at%209.46.10%20PM.mpeg" type="audio/ogg">
+                        <source src="WhatsApp%20Audio%202021-07-29%20at%209.46.10%20PM.mpeg" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <span>
+                    <img src="vibrio-cholerae.webp">
+                </span>
+                <span>
+                    <img src="ch2.jpg">
+                </span>
+
+                <div>
+                    <p class="para">A bacterial disease causing severe diarrhoea and dehydration, usually spread in water. Cholera is an acute diarrheal illness caused by infection of the intestine with Vibrio cholerae bacteria. People can get sick when they swallow food or water contaminated with cholera bacteria.
+
+                        Symptoms: Diarrhea</p>
+                    <span>
+                        <img class="all" src="Cholera.jpg">
+                    </span>
+
+                    <p class="para">Is cholera still around? Sadly, yes. Each year, 1.3 million to 4 million people around the world suffer from cholera and 21,000 to 143,000 people die of the disease, according to the World Health Organization (WHO).Cholera is an extremely virulent disease that can cause severe acute watery diarrhoea. It takes between 12 hours and 5 days for a person to show symptoms after ingesting contaminated food or water. Cholera affects both children and adults and can kill within hours if untreated. Well, boiling water is a very effective way to disinfect the water. And it will not only kill Vibrio cholerae, the bacteria that causes cholera, but it's a right way to make sure your water is free of any pathogen, any living organism that could cause infection or illness.</p>
+                </div>
+                <br>
+                <div class="fuline"></div>
+                <br>
+                <p class="hp">Tuberculosis</p>
+                <div class="lintop"></div>
+                <div>
+                    <audio controls>
+                        <source src="WhatsApp%20Ptt%202021-07-27%20at%205.18.00%20PM.ogg" type="audio/ogg">
+                        <source src="WhatsApp%20Ptt%202021-07-27%20at%205.18.00%20PM.ogg" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <span>
+                    <img src="WhatsApp%20Image%202021-07-05%20at%2010.07.21%20PM.jpeg">
+                </span>
+                <span>
+                    <img src="WhatsApp%20Image%202021-07-05%20at%2010.07.35%20PM.jpeg">
+                </span>
+
+                <div>
+                    <p class="para">A potentially serious infectious bacterial disease that mainly affects the lungs.
+                        Known as TB.
+
+                        The bacteria that cause TB are spread when an infected person coughs or sneezes.
+                        Most people infected with the bacteria that cause tuberculosis don't have symptoms. When symptoms do occur, they usually include a cough, weight loss, night sweats and fever.
+
+                        Tuberculosis (TB) is a disease caused by germs that are spread from person to person through the air.
+
+                        It may sound like a disease of the past, but tuberculosis, or TB, is still a real concern today. And as the old saying goes, an ounce of prevention is worth a pound of cure. In other words, the best way to be well is to avoid getting sick in the first place.
+
+                        Symptoms: Diarrhoea</p>
+                    <span>
+                        <img class="all" src="WhatsApp%20Image%202021-07-05%20at%2010.07.56%20PM.jpeg">
+                    </span>
+                    <div>
+                        <audio controls>
+                            <source src="WhatsApp%20Ptt%202021-07-27%20at%205.23.42%20PM.ogg" type="audio/ogg">
+                            <source src="WhatsApp%20Ptt%202021-07-27%20at%205.23.42%20PM.ogg" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+
+                    <p class="para">If you have active TB disease, you must get treated right away. This might involve taking a number of medications for 6 to 12 months. It’s important to take all of your medicines, as they’re prescribed, the entire time.
+                        If you have TB germs in your body but they haven’t become active, you have what doctors call “latent TB.” You can’t spread the disease to others. But your doctor may still recommend that you take medications to keep the germs from becoming active.Take all of your medicines as they’re prescribed, until your doctor takes you off them.
+                        Always cover your mouth with a tissue when you cough or sneeze. Seal the tissue in a plastic bag, then throw it away.
+                        Wash your hands after coughing or sneezing.
+                        Stay home from work, school, or other public places.
+                        Use a fan or open windows to move around fresh air.</p>
+                </div>
+            </section>
             <div class="fuline"></div>
-            <br>
-            <p class="hp">Cholera</p>
-            <div class="lintop"></div>
-            <span>
-                <img src="vibrio-cholerae.webp">
-            </span>
-            <span>
-                <img src="ch2.jpg">
-            </span>
 
-            <div>
-                <p class="para">A bacterial disease causing severe diarrhoea and dehydration, usually spread in water. Cholera is an acute diarrheal illness caused by infection of the intestine with Vibrio cholerae bacteria. People can get sick when they swallow food or water contaminated with cholera bacteria.
+            <section id="new">
+                <p class="hp">News</p>
+                <div class="lintop"></div>
+                <p style="font-family: sans-serif" ;>Let's see some latest news on bacterias. Start scrolling and let the adventure begin. </p>
+                <br>
 
-                    Symptoms: Diarrhea</p>
-                <span>
-                    <img class="all" src="ch1.jpeg">
+                <iframe width="1000" height="550" src="https://english.lokmat.com/technology/new-technique-allows-for-identification-of-potential-drugs-to-fight-resistant-bacteria/" frameborder="0"></iframe>
+                <br><br>
+                <img height="600" src="Coronavirus_Dua_Webimage.jpg">
+
+
+            </section>
+            <div class="fuline"></div>
+
+            <section id="fun">
+                <p class="hp">Activities & Fun</p>
+                <div class="lintop"></div>
+<span>
+                <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/gamelab/SUj0zDML0d75mjPms-HmtrRHHNCZBVB419R_bxQmy7I/embed"></iframe>
                 </span>
+                <span>
+                <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/ElyoCkP9CAgN4FKjm8Hbcn2u6UcIOB5_ScNgRLCqpxk/embed"></iframe>
+                </span>
+            </section>
+            <div class="fuline"></div>
+            <section id="us">
+                <p class="hp">About Us (SAS)</p>
+                <div class="lintop"></div>
+                <br>
+                <img class="all" src="logo_200x200%20(8).png">
+                <div class="announcement">
+                    <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();" font-size: 27px;>
+                        ***Serious About Science ***
 
-                <p class="para">Is cholera still around? Sadly, yes. Each year, 1.3 million to 4 million people around the world suffer from cholera and 21,000 to 143,000 people die of the disease, according to the World Health Organization (WHO).Cholera is an extremely virulent disease that can cause severe acute watery diarrhoea. It takes between 12 hours and 5 days for a person to show symptoms after ingesting contaminated food or water. Cholera affects both children and adults and can kill within hours if untreated. Well, boiling water is a very effective way to disinfect the water. And it will not only kill Vibrio cholerae, the bacteria that causes cholera, but it's a right way to make sure your water is free of any pathogen, any living organism that could cause infection or illness.</p>
-            </div>
-        </section>
-        <div class="fuline"></div>
-        <section id="new">
-            <p class="hp">News</p>
-            <div class="lintop"></div>
-            <p style="font-family: sans-serif" ;>Let's see some latest news on bacterias. Start scrolling and let the adventure begin. </p>
-            <br>
-            <span>
-                <iframe width="450" height="500" src="https://english.lokmat.com/technology/new-technique-allows-for-identification-of-potential-drugs-to-fight-resistant-bacteria/" frameborder="0"></iframe>
-            </span>
-            <span>
-                <iframe width="450" height="500" src="https://www.theweek.in/news/sci-tech/2021/06/12/bacteria-sized-robots-take-on-microplastics.html" frameborder="0"></iframe>
-            </span>
-            <span>
-                <iframe width="450" height="500" src="https://www.sciencedaily.com/releases/2021/06/210616113752.htm" frameborder="0"></iframe>
-            </span>
-        </section>
-        <div class="fuline"></div>
+                    </marquee>
 
-        <section id="fun">
-            <p class="hp">Activities & Fun</p>
-            <div class="lintop"></div>
+                </div>
+                <img src="WhatsApp%20Image%202021-08-07%20at%207.12.22%20PM.jpeg">
+                <br>
+                <h1>Contact Us On:</h1>
+                <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12;">
+                    <a href="mailto:my@gmail.com?Subject=Hi">
+                        <h2><i class="fa fa-envelope"></i>&nbsp;&nbsp;seriousaboutscience03@gmail.com</h2>
+                    </a>
+                </div>
 
-            <iframe width="375" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/NeDaqVwQD8y7Y4adZzj7pfBJkYHxsql2E7rnCvHv4wk/embed"></iframe>
+                
 
-        </section>
-        <div class="fuline"></div>
-        <section id="us">
-            <p class="hp">About Us (SAS)</p>
-            <div class="lintop"></div>
-
-
-        </section>
-
+            </section>
+        
+        </div>
     </center>
-</body></html>
+</body>
+
+</html>

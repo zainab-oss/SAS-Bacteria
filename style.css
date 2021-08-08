@@ -4,17 +4,17 @@ html {
 
 body {
     text-align: center;
-    background-color: a;
+    
     background-image: linear-gradient(lavender, lightcyan, lavenderblush, floralwhite, mintcream)
 }
 
 .menu {
     z-index: 10;
     position: fixed;
-    background: moccasin;
+    background: grey;
     margin-top: 0;
+    margin-bottom: 20;
     top: 0;
-    float: left;
     width: 100%;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .links:hover {
-    background-color: lightgoldenrodyellow;
+    background-color: darkgrey;
     font-size: 25px;
     text-decoration: underline;
 }
@@ -36,7 +36,7 @@ body {
 li a,
 .dropbtn {
     display: inline-block;
-    color: white;
+    color: darkviolet;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -68,12 +68,16 @@ li.dropdown {
     text-align: left;
 }
 
+.navbar-brand { float: none; }
+.navbar-center { position: absolute; width: 100%; text-align: center; margin: auto; height:100%; }
+
 #strt {
     color: white;
     font-weight: bolder;
     background-image: url(s.jpg);
     height: 250px;
     width: 100%;
+    margin-top: 20;
 }
 
 mark {
@@ -106,6 +110,12 @@ p {
     color: royalblue;
     font-size: 35px;
     font-family: sans-serif;
+}
+#newstyl {
+  text-align: center;
+    color: red;
+    font-size: 40px;
+    font-family: serif;  
 }
 
 .img responsive {
