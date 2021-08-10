@@ -8,69 +8,6 @@ body {
     background-image: linear-gradient(lavender, lightcyan, lavenderblush, floralwhite, mintcream)
 }
 
-.menu {
-    z-index: 10;
-    position: fixed;
-    background: grey;
-    margin-top: 0;
-    margin-bottom: 20;
-    top: 0;
-    width: 100%;
-}
-
-.links {
-    color: black;
-    display: inline;
-    padding-left: 33px;
-    padding-right: 25px;
-    font-family: fantasy;
-    font-size: 29px;
-}
-
-.links:hover {
-    background-color: darkgrey;
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-li a,
-.dropbtn {
-    display: inline-block;
-    color: darkviolet;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover,
-.dropdown:hover .dropbtn {
-    background-color: azure;
-}
-
-li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: darkmagenta;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.navbar-brand { float: none; }
-.navbar-center { position: absolute; width: 100%; text-align: center; margin: auto; height:100%; }
-
 #strt {
     color: white;
     font-weight: bolder;
@@ -138,4 +75,8 @@ p {
     font-family: 'Abril Fatface', cursive;
     font-family: 'Kanit', sans-serif;
     font-weight: bold;
+}
+
+.absp {
+    width: 600px;
 }
